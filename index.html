@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <!-- ==== Meta ==== -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta content="index, follow" name="robots">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- ==== Meta - Facebook ==== -->
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:type" content="website">
+
+        <!-- ==== Meta - Twitter ==== -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="">
+        <meta name="twitter:creator" content="">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="">
+        <meta name="twitter:url" content="">
+        <meta name="twitter:domain" content="">
+        <meta name="twitter:app:name:iphone" content="">
+        <meta name="twitter:app:id:iphone" content="">
+        <meta name="twitter:app:url:iphone" content="">
+        <meta name="twitter:app:name:ipad" content="">
+        <meta name="twitter:app:id:ipad" content="">
+        <meta name="twitter:app:url:ipad" content="">
+        <meta name="twitter:app:name:googleplay" content="">
+        <meta name="twitter:app:id:googleplay" content="">
+        <meta name="twitter:app:url:googleplay" content="">
+
+        <!-- ==== Favicons ==== -->
+        <link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+        <link href="" type="" rel="apple-touch-icon">
+
+        <!-- ==== Google Fonts ==== -->
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+
+        <!-- ==== Vendor CSS Files ==== -->
+        <link href="" rel="stylesheet">
+        <link href="" rel="stylesheet">
+        <link href="" rel="stylesheet">
+
+        <!-- ==== Template CSS File ==== -->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+
+        <!-- ==== Vendor JS Files ==== -->
+        <script src="js/script.js" defer></script>
+    </head>
+
+    <body>
+        <div id="register-container">
+            <div id="register-banner">
+                <div id="banner-layer">
+                    <h1>Seja Bem-Vindo</h1>
+                </div>
+            </div>
+            <div id="register-form">
+                <h2>Crie sua Conta:</h2>
+                <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
+                <div class="form-control">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite o seu nome">
+                </div>
+                
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+                </div>
+                
+                <p>
+                    Precisa de ajuda para criar uma senha segura? 
+                    <span id="open-generate-password">Clique aqui</span>.
+                </p>
+
+                <div id="generate-options" class="hide">
+                    <p>Selecione as opções que você deseja</p>
+                    <div class="form-control">
+                        <label for="length">Quantidade de caracteres:</label>
+                        <input type="text" id="length" name="length" value="10">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="letters">Letras:</label>
+                        <input type="checkbox" id="letters" name="letters" checked>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="numbers">Números:</label>
+                        <input type="checkbox" id="numbers" name="numbers" checked>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="symbols">Símbolos:</label>
+                        <input type="checkbox" id="symbols" name="symbols" checked>
+                    </div>
+
+                    <button id="generate-password">Criar senha</button>
+                </div>
+
+                <div id="generated-password">
+                    <p>Aqui está sua senha:</p>
+                    <h3></h3>
+                    <button id="copy-password">Copiar</button>
+                </div>
+                
+                <div class="form-control">
+                    <label for="passwordTwo">Confirme a sua Senha</label>
+                    <input type="password" name="passwordTwo" id="passwordTwo" placeholder="Confirme a sua senha">
+                </div>
+
+                <button type="submit" id="button-cadastrar">Cadastrar</button>
+            </div>
+        </div>
+    </body>
+</html>
