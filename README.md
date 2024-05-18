@@ -9,8 +9,8 @@ A tela de login possui campos para o usuário inserir seu nome de usuário e sen
 ## Estrutura do Projeto
 
 - `index.html`: O arquivo HTML principal que contém a estrutura da tela de login.
-- `styles.css`: O arquivo CSS que estiliza a tela de login.
-- `scripts.js`: O arquivo JavaScript que adiciona funcionalidades à tela de login.
+- `styles.css`: O arquivo CSS que quem estiliza a tela de login está localizado em [CSS](https://github.com/AllysonGerald/Login_GeradorSenhas/tree/main/css).
+- `scripts.js`: O arquivo JavaScript que adiciona funcionalidades à tela de login está localizado em [JS](https://github.com/AllysonGerald/Login_GeradorSenhas/tree/main/js).
 
 ## Funcionalidades
 
